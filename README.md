@@ -1,27 +1,24 @@
 # TestTechnique
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+## Overview
+The codebase herein is structured to simulate a web application that faithfully renders a UI/UX design supplied via Figma mockups, with content dynamically loaded from structured JSON data sources.
 
-## Development server
+## Getting Started
+Follow these simple steps to get the application up and running on your development environment:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Obtain the source by cloning this repository:
+git clone https://github.com/Molka17/TheAssistantTechnicalTest.git
+# Change into the app's directory:
+cd TheAssistantTechnicalTest
+# Install all necessary dependencies, including Angular and Bootstrap:
+npm install
+npm install bootstrap
+# Launch the app using the Angular CLI:
+ng serve
+# After the server starts and the compilation finishes, open a web browser and  Navigate to http://localhost:4200 to access the running application.
+You should see the interface as displayed in the provided screenshot, featuring a neatly organized layout of Hogwarts teachers and students, complete with their respective details and attributes.
+![image](https://github.com/Molka17/TheAssistantTechnicalTest/assets/93080390/9844eebb-ef72-470c-bd72-9604d5ba5087)
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Additional Configuration and Context
+Date Simulation: For the purposes of this demo, the application operates with the date set to "November 12, 1991."
