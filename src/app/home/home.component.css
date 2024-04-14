@@ -1,0 +1,16 @@
+
+.hogwarts-banner {
+    font-size: 48px; /* Adjust size as needed */
+    font-weight: bold; /* Makes the font bold */
+    color: black; /* Text color */
+    padding: 10px 20px; /* Padding inside the banner */
+    display: inline-block; /* Makes the div not stretch full width */
+    font-family: 'Times New Roman', serif; /* Change the font-family as needed */
+  }
+.Hogwarts-color {
+    display: inline-block; /* Rend le div comme un élément en ligne mais avec un bloc */
+    width: 10%; /* Prend la largeur complète de son parent */
+    height: 0.4cm; /* Hauteur fixe de 0.4 cm */
+    padding: -10px;
+    background-color: #fed50b; /* Couleur de fond, changez-la comme vous voulez */
+}

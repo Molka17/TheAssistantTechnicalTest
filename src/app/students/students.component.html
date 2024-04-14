@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <div *ngFor="let student of allStudents ; let i = index">
+                <div *ngIf="i%2===0" class="card m-3" style="max-width: 540px;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ student.firstName }} {{student.lastName}}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{student.description}}</h6>
+                        <span class="badge badge badge-top-right" [style.backgroundColor]="student.color">{{student.house}}</span>
+                        <div class="card-text mt-3">
+                            <small class="text-muted">
+                                <i class="bi bi-calendar3"></i> {{student.arrivalDate}}
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div *ngFor="let student of allStudents  ; let i = index">
+                <div *ngIf="i%2===1" class="card m-3" style="max-width: 540px;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ student.firstName }} {{student.lastName}}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{student.description}}</h6>
+                        <span  class="badge badge badge-top-right" [style.backgroundColor]="student.color">{{student.house}}</span>
+                        <div class="card-text mt-3">
+                            <small class="text-muted">
+                                <i class="bi bi-calendar3"></i> {{student.arrivalDate}}
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
