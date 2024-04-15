@@ -12,8 +12,8 @@ git clone https://github.com/Molka17/TheAssistantTechnicalTest.git
 # Change into the app's directory:
 cd TheAssistantTechnicalTest
 # Install all necessary dependencies, including Angular and Bootstrap:
-npm install
-npm install bootstrap
+#### npm install
+#### npm install bootstrap-icons
 # Launch the app using the Angular CLI:
 ng serve
 # After the server starts and the compilation finishes, open a web browser and  Navigate to http://localhost:4200 to access the running application.
